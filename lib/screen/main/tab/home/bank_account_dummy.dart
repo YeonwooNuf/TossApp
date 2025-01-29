@@ -25,7 +25,6 @@ main() {
     print(entry.key + ":" + (entry.value.accountTypeName ?? entry.value.bank.name));
   }*/
   print(bankSet.contains(bankAccountShinhan1));
-
   print(bankAccounts.contains(bankAccountShinhan1));
 }
 
